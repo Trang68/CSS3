@@ -1,0 +1,23 @@
+#btn-Facebook,
+#btn-Google,
+#btn-Github {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+#btn-Facebook {
+  background-color: #3b5999;
+}
+#btn-Google {
+  background-color: #ee7621;
+}
+#btn-Github {
+  background-color: black;
+}
+.label {
+  padding-left: 8px;
+}

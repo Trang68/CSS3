@@ -1,0 +1,360 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+  background-position: left;
+  background-size: cover;
+  text-decoration: none;
+}
+nav {
+  background-color: white;
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+}
+#logo {
+  width: 40px;
+}
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 150px;
+  border-top: 2px solid rgb(170, 210, 54);
+  padding: 20px;
+  right: 24px;
+  background-color: white;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.dropdown-wrapper:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+  cursor: pointer;
+}
+.dropdown-content a:last-of-type {
+  border: none;
+}
+.menuItem {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.menuItem i {
+  padding-left: 4px;
+}
+.btn-buynow {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(170, 210, 54);
+  padding: 9px 34px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+#section-tittle {
+  width: 100%;
+  height: 100vh;
+}
+#main-text-container {
+  padding-top: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#main-text-container h1 {
+  width: 100%;
+  max-width: 1100px;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 8.8px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+#main-text-container p {
+  width: 100%;
+  max-width: 1100px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #8b8b99;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.footer {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  padding: 30px 0px;
+}
+
+#four-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.item-step {
+  width: 25%;
+  padding: 112px 48px;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+#step-first {
+  background-color: #5acda6;
+}
+#step-second {
+  background-color: #91ac41;
+}
+#step-third {
+  background-color: #e4b476;
+}
+#step-fourth {
+  background-color: #f69dad;
+}
+
+.item-step h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.item-step p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin-top: 0;
+}
+.item-step i {
+  font-size: 96px;
+  transition: all 0.3s;
+}
+
+.item-step:hover i {
+  transform: scale(1.1, 1.1);
+}
+
+#vegan-store {
+  background-color: #f7eee2;
+  width: 100%;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#heading-section-vegan-store {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+
+#vegan-store h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#description-section {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+}
+
+#section-store-wrapper-item {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: stretch;
+  margin: 0 auto;
+}
+.item-section-store {
+  width: 25%;
+  text-align: center;
+  padding: 24px;
+}
+.item-section-store:hover .icon-wrapper {
+  transform: scale(1.1, 1.1);
+}
+.icon-wrapper {
+  display: inline-block;
+  background-color: #e3b375;
+  border-radius: 50%;
+  padding: 40px;
+  color: white;
+  transition: all 0.3s;
+}
+.icon-wrapper i {
+  font-size: 60px;
+}
+.item-section-store h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.item-section-store p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8b8b99;
+}
+
+#section-staff {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+#section-staff .heading-section-staff {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+#comment-staffs-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.comment-item {
+  width: 25%;
+  text-align: center;
+  margin: 16px;
+  padding: 40px 30px;
+  background-color: #f5f6fb;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  transition: box-shadow 0.3s;
+}
+.img-staff {
+  border-radius: 50%;
+  width: 80px;
+}
+.sentences-comment {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  color: #8b8b99;
+  padding: 10px 20px;
+}
+.name-staff {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.staff-job {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #8b8b99;
+}
+
+#section-follow {
+  display: flex;
+  justify-content: stretch;
+}
+
+#left-part {
+  width: 67%;
+  display: inline-block;
+  margin: 0;
+}
+#left-part .img {
+  width: 100%;
+}
+#right-part {
+  width: 33.33%;
+  margin: 0;
+  display: inline-block;
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+  background-position: left;
+  background-size: cover;
+}
+#text-wrapper {
+  margin: 100px;
+}
+#text-wrapper h3 {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+#text-wrapper p {
+  color: #8b8b99;
+  font-size: 16px;
+  letter-spacing: 0.5;
+  line-height: 1.6;
+  margin: 0;
+}
+#subscribe-email {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: white;
+  padding: 12px;
+  color: #8b8b99;
+  font-size: 16px;
+  margin-top: 60px;
+  display: block;
+}
+
+#subscribe-btn {
+  background-color: #f69dad;
+  padding: 16px 42px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+#subscribe-btn:hover {
+  color: #f69dad;
+  border: 1px solid #f69dad;
+  background-color: #f5f6fb;
+}
